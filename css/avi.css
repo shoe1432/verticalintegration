@@ -86,10 +86,10 @@ body {
 }
 
 .masthead {
-    width: calc(100% - 30px);
-    max-width: 990px;
     z-index: 50;
     position: fixed;
+    left: 0;
+    right: 0;
     background: #fff;
     border-bottom: 1px solid #f3f3f3;
 }
