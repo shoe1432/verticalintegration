@@ -28,6 +28,10 @@ a:focus {
     height: 274px;
 }
 
+.reset {
+  padding: 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -93,6 +97,15 @@ body {
     background: #fff;
     border-bottom: 1px solid #f3f3f3;
 }
+  .logo {
+    width: 147px;
+    margin: 10px 0 0 50px;
+  }
+
+    .logo-link {
+      display: inline-block;
+      padding: 10px 15px;
+    }
 
 .content {
     position: relative;
@@ -113,6 +126,10 @@ body {
     color: #fff;
 }
 
+.questionForm .controls {
+  margin-bottom: 10px;
+}
+
 .formCheck {
     position: absolute;
     font-size: 0;
@@ -131,6 +148,18 @@ body {
 .navbar {
     margin-bottom: 0;
 }
+
+.navbar-nav {
+  padding: 10px 0 0;
+}
+
+  .navbar-nav li {
+    margin: 0 10px 6px 0;
+  }
+
+  .navbar-nav .nav-button {
+    padding: 10px;
+  }
 
 .navbar-inverse .btn-navbar {
     color: #ffffff;
@@ -156,10 +185,6 @@ body {
 .navbar-inverse .btn-navbar:active,
 .navbar-inverse .btn-navbar.active {
     background-color: #016cad \9;
-}
-
-.navbar .nav > li > a {
-    padding: 10px 10px 10px 10px;
 }
 
 a.navlinks {
@@ -243,15 +268,6 @@ textarea,
     width: 97%;
 }
 
-.logo {
-    position: relative;
-    top: 10px;
-    left: 65px;
-    width: 147px;
-    height: 19px;
-    z-index: 1000;
-}
-
 .menulabel {
     position: relative;
     float: left;
@@ -277,32 +293,6 @@ textarea,
 
 .nav .nav-button img {
     margin-bottom: 3px;
-}
-
-.navbar .btn-navbar {
-    padding: 7px 9px 2px 9px;
-    margin-top: -6px;
-}
-
-.navbar-inverse .navbar-inner {
-    background-color: #fff;
-    background-image: none;
-    background-repeat: no-repeat;
-    border: 0 !important;
-    text-align: center;
-    border-radius: 0;
-    padding-left: 0;
-    padding-right: 0;
-    box-shadow: none;
-}
-
-.navbar .nav,
-.navbar .nav > li {
-    float: none;
-    display: inline-block;
-    vertical-align: top;
-    left: 100px;
-    margin: -4px 10px 6px 0;
 }
 
 .navbar-inverse .nav-collapse .nav > li > a,
@@ -502,9 +492,6 @@ sup {
 @media only screen and (max-width: 1200px) {
     body {
         background: white;
-    }
-    .masthead {
-        max-width: 940px;
     }
 }
 
