@@ -98,8 +98,8 @@ body {
     border-bottom: 1px solid #f3f3f3;
 }
   .logo {
-    width: 147px;
-    margin: 10px 0 0 50px;
+    width: 154px;
+    margin: 10px 0 0 40px;
   }
 
     .logo-link {
@@ -124,6 +124,10 @@ body {
 
 .charcoal h3 {
     color: #fff;
+}
+
+.questionForm .formCheck {
+  display: none;
 }
 
 .questionForm .controls {
@@ -157,19 +161,15 @@ body {
     margin: 0 10px 6px 0;
   }
 
-  .navbar-nav .nav-button {
-    padding: 10px;
+  .navbar-nav li:first-of-type {
+    margin-right: 20px;
   }
 
-.navbar-inverse .btn-navbar {
-    color: #ffffff;
-    background-color: #016cad;
-    background-image: linear-gradient(to bottom, #269fe8, #016cad);
-    background-repeat: repeat-x;
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff269fe8', endColorstr='#ff016cad', GradientType=0);
-    border-color: #ff919d #ff919d #016cad;
-    background-image: linear-gradient(to bottom, #269fe8, #016cad);
-}
+  .navbar-nav .nav-button {
+    padding: 10px;
+    font-size: 15px;
+    color: #828f97;
+  }
 
 .navbar-inverse .btn-navbar:hover,
 .navbar-inverse .btn-navbar:focus,
@@ -295,31 +295,6 @@ textarea,
     margin-bottom: 3px;
 }
 
-.navbar-inverse .nav-collapse .nav > li > a,
-.navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #828f97;
-}
-
-.navbar-inverse .nav-collapse .nav > li > a:hover,
-.navbar-inverse .nav-collapse .dropdown-menu a:hover {
-    background-color: #f3f3f3;
-}
-
-.navbar-inverse .nav .active>a,
-.navbar-inverse .nav .active>a:hover,
-.navbar-inverse .nav .active>a:focus {
-    color: #828f97;
-    background-color: transparent;
-    font-size: 1.1em;
-}
-
-.navbar-inverse .brand,
-.navbar-inverse .nav > li > a {
-    color: #828f97;
-    font-size: 15px;
-    text-shadow: none;
-}
-
 .numbers {
     position: relative;
     float: left;
@@ -381,6 +356,7 @@ p {
     line-height: 1.1em;
     margin-top: 5px;
     font-weight: bold;
+    text-align: center;
 }
 
 // strong {
@@ -458,20 +434,27 @@ sup {
     .space {
         display: none;
     }
+
+    .scrollDown {
+      margin: 8px auto;
+    }
+
     .lead {
         color: #fff;
         font-size: 1.5em;
         padding: 100px 0 0 0;
         text-align: center;
     }
+
     .logo {
-        position: relative;
-        top: 5px;
-        left: 15px;
-        width: 147px;
-        height: 19px;
-        z-index: 1000;
+      margin: 0 0 0 10px;
     }
+
+    .toggle-button {
+      float: right;
+      margin: 10px 5px 7px 0;
+    }
+
     .splash {
         background: url('../img/main_image_bg.jpg') no-repeat;
         background-size: cover;
