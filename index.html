@@ -160,16 +160,15 @@
 			<div class="space">&nbsp;</div>
 			
 			<div class="row dotted">
-				<div class="row pagination-left">
 					<div class="col-sm-1 col-md-1 hidden-xs"></div>
 					<div class="col-sm-10 col-md-10">
-						<div class="col-sm-1 col-md-1"><a href="#contact" onclick="$('#contact').animatescroll();" title="Contact Us"><img src="./img/icon_prod_portfolio.png" alt="Custom Product Portfolio"></a></div>
+						<div class="icon-container col-sm-1 col-md-1"><a href="#contact" onclick="$('#contact').animatescroll();" title="Contact Us"><img src="./img/icon_prod_portfolio.png" alt="Custom Product Portfolio"></a></div>
 						<div class="col-sm-5 col-md-5">
 							<h3>Custom Product Portfolio</h3>
 							<p>Request your own customized product catalogue. Why bother flipping through other catalogues that feature products not meeting your specific needs? At Apotex, one of our managers will provide exactly what you're looking for. Click the "Contact Us" button to ask us how.</p>
 							<button type="button" class="btn btn-xs btn-primary" onclick="$('#contact').animatescroll();">Contact Us</button><br>&nbsp;
 						</div>				
-						<div class="col-sm-1 col-md-1"><a href="http://vimeopro.com/apotexinternational/helping-enrich-lives-globally" title="Corporate Video"><img src="./img/icon_corp_video.png" alt="Corporate Video"></a></div>
+						<div class="icon-container col-sm-1 col-md-1"><a href="http://vimeopro.com/apotexinternational/helping-enrich-lives-globally" title="Corporate Video"><img src="./img/icon_corp_video.png" alt="Corporate Video"></a></div>
 						<div class="col-sm-5 col-md-5">
 							<h3>Corporate Video</h3>
 							<p>A picture is worth a thousand words, but a video is worth a million. Get a quick in-depth look at what Apotex is all about. This video will take you through various aspects of our group of companies and how vertical integration plays a key role in all that we do. Click the "Watch the Video" button to view.</p>
@@ -177,22 +176,19 @@
 						</div>
 					</div>
 					<div class="col-sm-1 col-md-1 hidden-xs"></div>
-				</div>
-				<div class="row pagination-left">
-					<div class="col-sm-1 col-md-1 hidden-xs"></div>
-					<div class="col-sm-10 col-md-10">
-						<div class="col-sm-1 col-md-1"><a href="./docs/corp_presentation.pdf" title="Corporate Presentation"><img src="./img/icon_corp_pres.png" alt="Corporate Presentation"></a></div>
-						<div class="col-sm-5 col-md-5">
-							<h3>Corporate Presentation</h3>
-							<p>Want to learn more about who we are? What we stand for? Why we do what we do, and more? Click the "Learn more" button to see our new corporate deck.</p>
-							<button type="button" class="btn btn-xs btn-primary" onclick="window.location='./docs/corp_presentation.pdf';">Learn more</button>
-						</div>				
-						<div class="col-sm-1 col-md-1 hidden-xs"></div>
-						<div class="col-sm-5 col-md-5 hidden-sm"></div>
-					</div>
-					<div class="col-sm-1 col-md-1 hidden-xs"></div>
-				</div>
 				<div class="space">&nbsp;</div>
+				<div class="col-sm-1 col-md-1 hidden-xs"></div>
+				<div class="col-sm-10 col-md-10">
+					<div class="icon-container col-sm-1 col-md-1"><a href="./docs/corp_presentation.pdf" title="Corporate Presentation"><img src="./img/icon_corp_pres.png" alt="Corporate Presentation"></a></div>
+					<div class="col-sm-5 col-md-5">
+						<h3>Corporate Presentation</h3>
+						<p>Want to learn more about who we are? What we stand for? Why we do what we do, and more? Click the "Learn more" button to see our new corporate deck.</p>
+						<button type="button" class="btn btn-xs btn-primary" onclick="window.location='./docs/corp_presentation.pdf';">Learn more</button>
+					</div>				
+					<div class="col-sm-1 col-md-1 hidden-xs"></div>
+					<div class="col-sm-5 col-md-5 hidden-sm"></div>
+				</div>
+				<div class="col-sm-1 col-md-1 hidden-xs"></div>
 			</div>
 			
 			<span id="contact" class="anchor"></span>
@@ -200,15 +196,13 @@
 			<div class="row pagination-left grey">
 				<div class="col-sm-1 col-md-1 hidden-xs"></div>
 				<div class="col-sm-10 col-md-10">
-					<div class="col-sm-12 col-md-12">				
-						<h2>Contact Us</h2>
-					</div>		
+					<h2>Contact Us</h2>
 				</div>
 				<div class="col-sm-1 col-md-1 hidden-xs"></div>
 			</div>	
 			<hr class="avi row">
 			<div class="row pagination-left white">
-				<div class="col-xs-1 hidden-sm reset"></div>
+				<div class="col-xs-1 col-sm-1 reset"></div>
 				<div class="arrow col-sm-3 col-md-3 reset">				
 					<h3>Canadian Sales Office</h3>
 					<p><strong>Apotex Inc.</strong><br><br>
@@ -219,7 +213,7 @@
 					<strong>f</strong>: 1-416-401-3855</p>
 					<p><a href="http://www.apotex.com" title="www.apotex.com" target="_blank">www.apotex.com</a></p>
 				</div>
-				<div class="col-sm-8 col-md-8 hidden-sm reset">
+				<div class="hidden-xs col-sm-8 col-md-8 reset">
 					<a href="http://goo.gl/maps/psezL" title="Map" target="_blank"><img src="./img/street_map.jpg" alt="Apotex Inc. Street Map" style="margin: -31px -1px -31px 0; float: right;"></a>
 				</div>
 			</div>
@@ -227,9 +221,9 @@
 				<div class="col-sm-1 col-md-1 hidden-xs"></div>
 				<div class="col-sm-10 col-md-10">
 					<form id="feedbackForm" action="/feedback/proc_feedback.asp" method="post">
-						<div class="questionForm" id="questionForm">
-							<div class="col-sm-6 col-md-6">	
-								<h3>Get in touch</h3>					
+						<div class="questionForm clearfix" id="questionForm">
+							<div class="col-sm-6 col-md-6 reset">	
+								<h3 class="hidden-xs hidden-sm">Get in touch</h3>					
 								<input class="formCheck" id="roboCheck" name="roboCheck" type="checkbox">
 								<label for="roboCheck" class="formCheck">Leave me unchecked</label>
 								<div class="controls">
@@ -241,7 +235,7 @@
 									<input class="form-control" id="email" name="email"  type="text" />
 								</div>							
 							</div>
-							<div class="col-sm-6 col-md-6 reset">
+							<div class="col-sm-6 col-md-6 reset textarea-container ">
 								<h3 class="hidden-sm">&nbsp;</h3>
 								<div class="form-group">
 									<label for="question" class="">Message:</label>

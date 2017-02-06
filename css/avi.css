@@ -134,6 +134,10 @@ body {
   margin-bottom: 10px;
 }
 
+.questionForm .textarea-container {
+  padding-left: 10px;
+}
+
 .formCheck {
     position: absolute;
     font-size: 0;
@@ -349,6 +353,11 @@ p {
     padding: 0 0 70px 0;
 }
 
+.icon-container {
+  padding-right: 0;
+  padding-left: 2.7624309392265194%;
+}
+
 .scrollDown {
     color: #0079c2;
     font-size: 17px;
@@ -390,6 +399,7 @@ sup {
     .arrow {
         background: none;
         height: auto;
+        padding: 0 15px;
     }
     .container {
         padding: 0;
@@ -431,9 +441,6 @@ sup {
     .navbar .right_nav {
         display: none;
     }
-    .space {
-        display: none;
-    }
 
     .scrollDown {
       margin: 8px auto;
@@ -462,6 +469,7 @@ sup {
     }
     .dotted {
         background: none;
+        padding-bottom: 0;
     }
     .row-fluid {
         padding: 3px;
@@ -470,6 +478,21 @@ sup {
     .content {
         margin: 65px 0 0 0;
     }
+
+    .questionForm {
+      padding-top: 30px;
+    }
+
+    .questionForm h3 {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .questionForm .textarea-container {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
