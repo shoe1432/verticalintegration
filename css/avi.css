@@ -442,6 +442,10 @@ sup {
         display: none;
     }
 
+    .navbar-collapse {
+      float: right;
+    }
+
     .scrollDown {
       margin: 8px auto;
     }
@@ -489,6 +493,11 @@ sup {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .navbar-collapse {
+    float: none;
+    text-align: center;
+  }
 
   .questionForm .textarea-container {
     padding-left: 0;
